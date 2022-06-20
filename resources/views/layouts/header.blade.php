@@ -8,10 +8,10 @@
             </div>
             <div class="navbar-elements">
                 <ul>
-                    <li>الرئيسة</li>
-                    <li>الخدمات</li>
-                    <li>اتصل بنا</li>
-                    <li><a href="/{{ LaravelLocalization::getCurrentLocale() == 'ar' ? 'en' : 'ar' }}">{{__('index.lang')}}</a></li>
+                    <li> {{__('index.main')}}</li>
+                    <li>{{__('index.services')}}</li>
+                    <li>  {{__('index.etsl')}}</li>
+                    <li><a href="/{{ LaravelLocalization::getCurrentLocale() == 'ar' ? 'en' : 'ar' }}">{{__("index.lang")}}</a></li>
                 </ul>
             </div>
         </nav>
