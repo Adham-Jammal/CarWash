@@ -4,7 +4,7 @@
     <section class="hero">
         <div class="container">
             <div class="hero-content">
-                <h1>
+                <h1 data-aos="zoom-in" data-aos-duration="1000">
                     لا تشيل هم غسيل سيارتك!
                     <br>
                     خلها على
@@ -16,10 +16,10 @@
     <section class="with-jimi">
         <div class="container">
             <div class="row">
-                <div class="col-lg-7 col-md-6 image-content">
+                <div class="col-lg-7 col-md-6 image-content" data-aos="fade-left" data-aos-duration="1000">
                     <img src="{{ asset('img/jimi-car.png') }}" alt="car">
                 </div>
-                <div class="col-lg-5 col-md-6 text-content">
+                <div class="col-lg-5 col-md-6 text-content" data-aos="fade-right" data-aos-duration="1000">
                     <h4>مع جيمي ووش</h4>
                     <p>نتعهد لكم عند تقديم احدى باقات خدمات Jimi wash بتوفير أفضل تجربة للعناية بالسيارات وخدمات حجز سهلة
                         ومريحـــــة
@@ -29,9 +29,9 @@
         </div>
     </section>
     <section class="our-start">
-        <h2>بدايتنا وتطورنا..</h2>
-        <span class="start-date">بدأنا بتاريخ 27/09/2021</span>
-        <div class="time-line">
+        <h2 data-aos="fade-up" data-aos-duration="1000">بدايتنا وتطورنا..</h2>
+        <span class="start-date" data-aos="fade-up" data-aos-duration="1000">بدأنا بتاريخ 27/09/2021</span>
+        <div class="time-line" data-aos="zoom-in" data-aos-duration="1000">
             <div class="point">
                 <span>البداية</span>
                 <p class="bottom">
@@ -76,18 +76,18 @@
     <section class="our-vision">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-6 col-md-12 image-content">
+                <div class="col-lg-6 col-md-12 image-content" data-aos="fade-left" data-aos-duration="1000">
                     <img src="{{ asset('img/vision.png') }}" alt="vision">
                 </div>
-                <div class="col-lg-6 col-md-12 text-content">
+                <div class="col-lg-6 col-md-12 text-content" data-aos="fade-right" data-aos-duration="1000">
                     <div class="vision">
                         <div class="quotation-marks top">
                             <img src="{{ asset('img/vector.png') }}" alt="">
                             <img src="{{ asset('img/vector.png') }}" alt="">
                         </div>
                         <div class="content">
-                            <h3>#رؤيتنا</h3>
-                            <p>ان يتم خدمة العمــــــــــــــيــل في موقعــــــــه
+                            <h3 data-aos="fade-up" data-aos-duration="1000">#رؤيتنا</h3>
+                            <p data-aos="fade-up" data-aos-duration="1000">ان يتم خدمة العمــــــــــــــيــل في موقعــــــــه
                                 <br>
                                 في أفضــــــــــــــــــل جوده واســـــــرع وقــــــت
                             </p>
@@ -108,7 +108,7 @@
             <p class="description">جميع المواد المستخدمه ذات جودة عالية حيث أننــا نحرص على استخدام احدث الأدوات والمعدات بمساعدة عمالــــه مدربـه جيــــداً لإتقــــــــــــان العمـــــــــــــــــــل</p>
             <div class="cards">
 
-                <div class="card">
+                <div class="card" data-aos="zoom-in" data-aos-duration="500">
                     <h4>تلميع البدي الخارجي</h4>
                     <span class="price">
                         <sup>RAS</sup>450
@@ -125,7 +125,7 @@
                     <a href="#">احجز الان</a>
                 </div>
 
-                <div class="card">
+                <div class="card"  data-aos="zoom-in" data-aos-duration="750">
                     <h4>تلميع البدي الخارجي</h4>
                     <span class="price">
                         <sup>RAS</sup>450
@@ -142,7 +142,7 @@
                     <a href="#">احجز الان</a>
                 </div>
 
-                <div class="middle-card">
+                <div class="middle-card"  data-aos="zoom-in" data-aos-duration="1000">
                     <h4>تلميع البدي الخارجي</h4>
                     <span class="price">
                         <sup>RAS</sup>450
@@ -159,7 +159,7 @@
                     <a href="#">احجز الان</a>
                 </div>
 
-                <div class="card">
+                <div class="card"  data-aos="zoom-in" data-aos-duration="1250">
                     <h4>تلميع البدي الخارجي</h4>
                     <span class="price">
                         <sup>RAS</sup>450
@@ -176,7 +176,7 @@
                     <a href="#">احجز الان</a>
                 </div>
 
-                <div class="card">
+                <div class="card"  data-aos="zoom-in" data-aos-duration="1500">
                     <h4>تلميع البدي الخارجي</h4>
                     <span class="price">
                         <sup>450</sup>RAS
@@ -198,12 +198,12 @@
     </section>
     <section class="why-us">
         <div class="container">
-            <h2>
+            <h2  data-aos="zoom-in" data-aos-duration="1000">
                 ماالذي يميزنا ..
             </h2>
             <div class="row">
                 <div class="col-md-4">
-                    <div class="card">
+                    <div class="card"  data-aos="fade-up" data-aos-duration="500">
                         <img src="{{ asset('img/star.png') }}" alt="">
                         <h5>
                             غسيل بجودة تلميع
@@ -212,7 +212,7 @@
 
                 </div>
                 <div class="col-md-4">
-                    <div class="card">
+                    <div class="card" data-aos="fade-up" data-aos-duration="1000">
                         <img src="{{ asset('img/hands.png') }}" alt="">
                         <h5>
                             جودة المواد المستخدمة ونوعية الفوط المخصصة لسيارتــــــــــــــــــــــــــــك
@@ -220,7 +220,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card">
+                    <div class="card" data-aos="fade-up" data-aos-duration="1500">
                         <img src="{{ asset('img/location.png') }}" style="padding: 10px 20px;" alt="">
                         <h5>
                             نخدمك في موقعك
@@ -233,10 +233,10 @@
     <section class="with-jimi equipments">
         <div class="container">
             <div class="row">
-                <div class="col-md-7 image-content">
+                <div class="col-md-7 image-content" data-aos="fade-left" data-aos-duration="1000">
                     <img src="{{ asset('img/jimi-car.png') }}" alt="car">
                 </div>
-                <div class="col-md-5 text-content">
+                <div class="col-md-5 text-content" data-aos="fade-right" data-aos-duration="1000">
                     <h4> المعدات اللي نستخدمها وصناعاتها </h4>
                     <p>المعدات المستخدمة ايطالية </p>
                     <ul>
@@ -260,10 +260,10 @@
     <section class="future-plans">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 image-content">
+                <div class="col-md-6 image-content" data-aos="zoom-out" data-aos-duration="1000">
                     <img src="{{ asset('img/future.png') }}" alt="">
                 </div>
-                <div class="col-md-6 text-content">
+                <div class="col-md-6 text-content" data-aos="zoom-in" data-aos-duration="1000">
                     <div class="content">
                     <h2>خططنا المستقبلية...</h2>
                     <ul>
@@ -280,8 +280,15 @@
         </div>
     </section>
     <section class="testimonials">
+        <div class="reviews">
+            <img src="{{ asset('img/1.png') }}" alt="">
+            <img src="{{ asset('img/2.png') }}" alt="">
+            <img src="{{ asset('img/3.png') }}" alt="">
+            <img src="{{ asset('img/4.png') }}" alt="">
+            <img src="{{ asset('img/5.png') }}" alt="">
+        </div>
         <div class="reviews" id="reviews">
-            <div class="review">
+            <div class="review right">
                 <div class="stars"> <i class="fa fa-star active"></i> <i class="fa fa-star active"></i> <i class="fa fa-star active"></i> <i class="fa fa-star active"></i> <i class="fa fa-star active"></i> </div>
                 <p>غسيل كلش محترف، بسرعة هائلة وتعامل مريح جداً وعلى
                     الوقت تماماً، طبعا وأسعار مدروسة جداًشكراً جيمي ووش</p>
@@ -289,7 +296,7 @@
                         2. month ago
                     </span>
             </div>
-            <div class="review">
+            <div class="review center">
                 <div class="stars"> <i class="fa fa-star active"></i> <i class="fa fa-star active"></i> <i class="fa fa-star active"></i> <i class="fa fa-star active"></i> <i class="fa fa-star active"></i> </div>
                 <p>غسيل كلش محترف، بسرعة هائلة وتعامل مريح جداً وعلى
                     الوقت تماماً، طبعا وأسعار مدروسة جداًشكراً جيمي ووش</p>
@@ -297,7 +304,7 @@
                         2. month ago
                     </span>
             </div>
-            <div class="review">
+            <div class="review left">
                 <div class="stars"> <i class="fa fa-star active"></i> <i class="fa fa-star active"></i> <i class="fa fa-star active"></i> <i class="fa fa-star active"></i> <i class="fa fa-star active"></i> </div>
                 <p>غسيل كلش محترف، بسرعة هائلة وتعامل مريح جداً وعلى
                     الوقت تماماً، طبعا وأسعار مدروسة جداًشكراً جيمي ووش</p>
@@ -320,7 +327,7 @@
 
                     <div class="Emails">
                         <div class="icon">
-                            <i>f</i>
+                            <i class="fa fa-envelope"></i>
                         </div>
                         <div class="content">
                             <p>sales-carwash@jimi.com</p>
@@ -330,7 +337,7 @@
 
                     <div class="phones">
                         <div class="icon">
-                            <i>f</i>
+                            <i class="fa fa-phone"></i>
                         </div>
                         <div class="content">
                             <p>+966530353033</p>
