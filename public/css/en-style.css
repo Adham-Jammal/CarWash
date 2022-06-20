@@ -237,7 +237,27 @@
     margin: 20px auto 0;
 }
 
+.our-services .card:hover{
+    transform: scale(1.1);
+    background-color: var(--second-color);
+    transition: 0.5s;
+}
+.our-services .card:hover h4{
+    color: var(--white);
+}
+.our-services .card:hover span{
+    color: #0A61AE;
+}
 
+.our-services .card:hover p{
+
+    color: var(--white);
+}
+.our-services .card:hover a{
+    background-color: #0A61AE;
+    color: var(--white);
+}
+/*
 .our-services .middle-card{
     position: relative;
     width: 18%;
@@ -277,7 +297,7 @@
     color: var(--white);
     padding: 1px 0;
     margin: 30px auto 0;
-}
+} */
 /* Why Us */
 .why-us{
     padding: 30px 0 60px ;
@@ -609,7 +629,7 @@ section.with-jimi.equipments{
         font-size: 3.5rem;
     }
     .our-start .time-line .point .top, .our-start .time-line .point .bottom{
-        width: 100%;
+        width: 88%;
         font-size: 1rem;
     }
     .our-services .card, .our-services .middle-card{

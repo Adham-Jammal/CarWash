@@ -128,7 +128,7 @@
                     <a href="#">{{__('index.23')}}</a>
                 </div>
 
-                <div class="middle-card"  data-aos="zoom-in" data-aos-duration="1000">
+                <div class="card"  data-aos="zoom-in" data-aos-duration="1000">
                     <h4>{{__('index.21')}}</h4>
                     <span class="price">
                         <sup>RAS</sup>450
