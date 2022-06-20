@@ -191,6 +191,7 @@
     align-items: center;
 }
 .our-services .card{
+    min-height: 380px;
     width: 18%;
     padding: 30px 10px;
     border-radius: 12px;

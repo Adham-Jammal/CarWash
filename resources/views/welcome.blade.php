@@ -102,7 +102,7 @@
             </div>
         </div>
     </section>
-    <section class="our-services">
+    <section class="our-services" id="our_services">
         <div class="container">
             <h2>خدماتنا</h2>
             <p class="description">جميع المواد المستخدمه ذات جودة عالية حيث أننــا نحرص على استخدام احدث الأدوات والمعدات بمساعدة عمالــــه مدربـه جيــــداً لإتقــــــــــــان العمـــــــــــــــــــل</p>
@@ -315,7 +315,7 @@
 
         </div>
     </section>
-    <section class="contact-us">
+    <section class="contact-us" id="contact_us">
         <div class="container">
             <div class="row">
             <div class="col-md-6">

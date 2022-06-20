@@ -20,12 +20,12 @@
     display: flex;
     list-style: none;
 }
- .navbar .navbar-elements ul li{
+ .navbar .navbar-elements ul li a{
     font-weight: 500;
     font-size: 1.8rem;
     margin: 0px 20px;
     color: var(--white);
 }
- .navbar .navbar-elements ul li:hover{
+ .navbar .navbar-elements ul li a:hover{
     color: var(--main-color);
 }

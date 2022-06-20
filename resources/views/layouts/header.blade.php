@@ -8,9 +8,9 @@
             </div>
             <div class="navbar-elements">
                 <ul>
-                    <li> {{__('index.main')}}</li>
-                    <li>{{__('index.services')}}</li>
-                    <li>  {{__('index.etsl')}}</li>
+                    <li> <a href="/"> {{__('index.main')}} </a></li>
+                    <li><a href="#our_services"> {{__('index.services')}}</a></li>
+                    <li> <a href="#contact_us"> {{__('index.etsl')}}</a></li>
                     <li><a href="/{{ LaravelLocalization::getCurrentLocale() == 'ar' ? 'en' : 'ar' }}">{{__("index.lang")}}</a></li>
                 </ul>
             </div>
