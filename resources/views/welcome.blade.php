@@ -20,7 +20,7 @@
                     <img src="{{ asset('img/jimi-car.png') }}" alt="car">
                 </div>
                 <div class="col-lg-5 col-md-6 text-content">
-                    <h4>مع جيمي ووش</h4>
+                    <h4> {{__('index.مع جيمي')}} مع جيمي ووش</h4>
                     <p>نتعهد لكم عند تقديم احدى باقات خدمات Jimi wash بتوفير أفضل تجربة للعناية بالسيارات وخدمات حجز سهلة
                         ومريحـــــة
                         متوفر اكسسوارات السيارة الأساسية والكماليـــــــــــــــــــــــات في المتجـــــــــر</p>
@@ -240,9 +240,9 @@
                     <h4> المعدات اللي نستخدمها وصناعاتها </h4>
                     <p>المعدات المستخدمة ايطالية </p>
                     <ul>
-                        <li><img src="{{ asset('img/li-arrow.png') }}" alt="">ماكينة الغسيل البخار</li>
+                        <li><img src="{{ asset('img/li-arrow.png') }}" alt="">ماكينة الغسيل بالبخار</li>
                         <li><img src="{{ asset('img/li-arrow.png') }}" alt="">ماكينة الغسيل بالماء </li>
-                        <li><img src="{{ asset('img/li-arrow.png') }}" alt="">مكنسه تنظيف وتلميع المراتب بلبخار</li>
+                        <li><img src="{{ asset('img/li-arrow.png') }}" alt="">مكنسه تنظيف وتلميع المراتب بالبخار</li>
                         <li><img src="{{ asset('img/li-arrow.png') }}" alt="">فوط كاربن فايبر </li>
                         <li><img src="{{ asset('img/li-arrow.png') }}" alt="">فرش التنظيف العميق </li>
 
