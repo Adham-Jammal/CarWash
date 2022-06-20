@@ -312,7 +312,7 @@ section.with-jimi.equipments{
     background: url(/img/blue-waves2.png);
     background-size: cover;
     background-position: center;
-    padding: 220px 0;
+    padding: 250px 0;
 }
 .equipments .text-content h4{
     color: var(--white);
@@ -372,14 +372,31 @@ section.with-jimi.equipments{
 }
 /* Reviwes */
 .testimonials{
-    padding: 75px 0;
+    padding: 150px 0;
+}
+.testimonials .reviews {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .testimonials .reviews .review{
     width: 500px;
     background: #FFFFFF;
     box-shadow: 2px 2px 27px 10px rgba(0, 0, 0, 0.07);
     border-radius: 8px;
-    padding: 20px;
+    padding: 40px 20px;
+}
+.testimonials .reviews .center{
+    z-index: 2;
+}
+.testimonials .reviews .left{
+    transform: scale(.8) translateX(80px);
+    z-index: 1;
+}
+.testimonials .reviews .right{
+    transform: scale(.8) translateX(-80px);
+    z-index: 1;
 }
 .testimonials .reviews .review i{
     font-size: 1.6rem;
@@ -423,7 +440,7 @@ section.with-jimi.equipments{
 }
 .contact-us .contact-info .Emails .icon,
 .contact-us .contact-info .phones .icon{
-
+    font-size: 2rem;
     color: var(--white);
     margin-left: 20px;
 }
