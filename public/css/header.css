@@ -1,0 +1,31 @@
+ .header{
+    position: absolute;
+    width: 100%;
+    z-index: 4;
+    left: 0;
+    top: 0px;
+    right: 0;
+    margin: 0 auto;
+ }
+ .navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+ .navbar .navbar-logo img{
+    width: 130px;
+}
+ .navbar .navbar-elements ul {
+    display: flex;
+    list-style: none;
+}
+ .navbar .navbar-elements ul li{
+    font-weight: 500;
+    font-size: 1.8rem;
+    margin: 0px 20px;
+    color: var(--white);
+}
+ .navbar .navbar-elements ul li:hover{
+    color: var(--main-color);
+}

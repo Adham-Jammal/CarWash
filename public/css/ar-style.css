@@ -1,0 +1,565 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    direction: rtl;
+    font-family: 'Cairo', sans-serif;
+}
+
+.hero{
+    position: relative;
+    background:url(/img/hero-background.png);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+}
+
+.hero .hero-content h1{
+    text-align: center;
+    color: var(--white);
+    font-size: 5rem;
+}
+.hero .hero-content h1 span{
+    color: var(--main-color);
+}
+/* with-jimi */
+.with-jimi{
+    position: relative;
+    top: -110px;
+    background: url(/img/blue-waves.png);
+    padding: 140px 0;
+    background-size: cover;
+}
+.with-jimi .image-content{
+    display: flex;
+    align-items: center;
+}
+.with-jimi .image-content img{
+    width: 100%;
+}
+.with-jimi .text-content h4 {
+    color: var(--black);
+    font-size: 3rem;
+}
+.with-jimi .text-content p {
+    color: var(--white);
+    font-size: 2.3rem;
+    font-weight: 600;
+    width: 80%;
+}
+/* our-start */
+.our-start{
+    padding: 0;
+}
+.our-start h2{
+    text-align: center;
+    color: var(--black);
+    font-size: 3rem;
+}
+.our-start .start-date{
+    display: block;
+    text-align: center;
+    color: var(--black);
+    font-size: 1.6rem;
+}
+.our-start .time-line{
+    height: 200px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+}
+.our-start .time-line .point{
+    position: relative;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.our-start .time-line .point::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    height: 1px;
+    background-color: #626366;
+    top: 26px;
+}
+.our-start .time-line .point span{
+    color: var(--white);
+    font-weight: 600;
+    font-size: 1.4rem;
+    background-color: var(--main-color);
+    border-radius: 50%;
+    padding: 14px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.our-start .time-line .point .bottom{
+    position: absolute;
+    top: 60px;
+}
+.our-start .time-line .point .top{
+    position: absolute;
+    bottom: 60px;
+}
+.our-start .time-line .point .top,
+.our-start .time-line .point .bottom{
+    font-size: 1.4rem;
+    font-weight: 700;
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+}
+/* Vision */
+.our-vision{
+    padding: 50px 0;
+}
+.our-vision .image-content img{
+    width: 100%;
+}
+.our-vision .text-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.our-vision .text-content .vision {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--second-color);
+    padding: 50px 0;
+    transform: translateX(75px);
+}
+.our-vision .text-content .vision .content {
+    padding: 0 20px;
+}
+.our-vision .text-content .vision .quotation-marks{
+    display: flex;
+    align-items: center;
+}
+.our-vision .text-content .vision .quotation-marks img{
+    margin: 0 1px;
+    width: 30px;
+}
+.our-vision .text-content .vision .top{
+    justify-content: flex-end;
+    transform: rotate(180deg) translateY(-50px);
+}
+.our-vision .text-content .vision .bottom{
+    justify-content: flex-end;
+    transform: translateY(-35px);
+}
+.our-vision .text-content .vision h3{
+    color: var(--white);
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+.our-vision .text-content .vision p{
+    color: var(--white);
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+/* Services */
+.our-services{
+    padding: 50px 0 ;
+}
+
+.our-services h2{
+    text-align: center;
+    color: var(--second-color);
+    font-weight: 700;
+    font-size: 3rem;
+}
+.our-services p.description{
+    text-align: center;
+    color: var(--black);
+    font-weight: 700;
+    font-size: 1.6rem;
+    width: 50%;
+    margin: 0 auto;
+}
+.our-services .cards{
+    padding: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.our-services .card{
+    width: 18%;
+    padding: 30px 10px;
+    border-radius: 12px;
+    background-color: #2D2D2D;
+}
+.our-services .card h4{
+    text-align: center;
+    color: var(--white);
+    font-size: 1.6rem;
+}
+.our-services .card span{
+    display: block;
+    text-align: center;
+    color: var(--second-color);
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin: 20px 0;
+}
+.our-services .card span sup{
+    font-size: 2.5rem;
+}
+.our-services .card p{
+    text-align: center;
+    font-size: 1.3rem;
+    color: var(--white);
+}
+.our-services .card a{
+    display: block;
+    border-radius: 8px;
+    width: 55%;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: center;
+    background-color: var(--second-color);
+    color: var(--white);
+    padding: 1px 0;
+    margin: 20px auto 0;
+}
+
+
+.our-services .middle-card{
+    width: 18%;
+    padding: 60px 10px;
+    border-radius: 12px;
+    background-color: var(--second-color);
+}
+.our-services .middle-card h4{
+    text-align: center;
+    color: var(--white);
+    font-size: 1.6rem;
+}
+.our-services .middle-card span{
+    display: block;
+    text-align: center;
+    color: #0A61AE;
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin: 20px 0;
+}
+.our-services .middle-card span sup{
+    font-size: 2.5rem;
+}
+.our-services .middle-card p{
+    text-align: center;
+    font-size: 1.3rem;
+    color: var(--white);
+}
+.our-services .middle-card a{
+    display: block;
+    border-radius: 8px;
+    width: 55%;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: center;
+    background-color: #0A61AE;
+    color: var(--white);
+    padding: 1px 0;
+    margin: 20px auto 0;
+}
+/* Why Us */
+.why-us{
+    padding: 30px 0 60px ;
+}
+.why-us h2{
+    text-align: center;
+    color: var(--black);
+    font-size: 4rem;
+    margin-bottom: 60px;
+}
+.why-us .card{
+    border-top: 5px solid var(--second-color);
+    border-bottom: 4px solid var(--second-color);
+    border-radius: 12px;
+    position: relative;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    margin: 0 auto;
+}
+.why-us .card h5{
+    text-align: center;
+    font-size: 2.9rem;
+    color: var(--second-color);
+}
+.why-us .card img{
+    background: var(--second-color);
+    width: 60px;
+    border-radius: 8px;
+    padding: 10px;
+    position: absolute;
+    left: 20px;
+    top: -35px;
+}
+/* equipments */
+.equipments .text-content h4{
+    color: var(--white);
+}
+.equipments .text-content p{
+    color: var(--white);
+}
+.equipments .text-content ul{
+    list-style: none;
+}
+.equipments .text-content ul li{
+    display: flex;
+    align-items: center;
+    font-size: 1.6rem;
+    color: var(--white);
+    margin: 6px 0;
+}
+
+.equipments .text-content ul li img{
+    width: 30px;
+    margin-left: 10px;
+}
+/* Future Plans */
+.future-plans{
+    padding: 50px 0;
+}
+.future-plans .image-content ,
+.future-plans .text-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.future-plans .image-content img{
+    width: 75%;
+}
+.future-plans .text-content h2{
+    font-size: 3.2rem;
+    color: var(--second-color);
+    margin-bottom: 40px;
+    font-weight: 800;
+}
+.future-plans .text-content ul{
+    list-style: none;
+}
+.future-plans .text-content ul li{
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    color: var(--black);
+    font-weight: 800;
+    font-size: 1.6rem;
+}
+.future-plans .text-content ul li img{
+    width: 25px;
+    margin-left: 10px;
+}
+/* Contanc US */
+.contact-us{
+    background: url(/img/contact-background.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+.contact-us .contact-info{
+    transform: translateY(-70px);
+}
+.contact-us .contact-info,
+.contact-us .contact-form{
+    margin: 0 auto;
+    background-color: var(--second-color);
+    width: 75%;
+    padding: 20px 30px;
+    border-radius: 6px;
+}
+.contact-us .contact-info h4{
+    font-size: 1.6rem;
+    color: var(--white);
+}
+.contact-us .contact-info .Emails,
+.contact-us .contact-info .phones{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.contact-us .contact-info .Emails .icon,
+.contact-us .contact-info .phones .icon{
+
+    color: var(--white);
+    margin-left: 20px;
+}
+.contact-us .contact-info .Emails p,
+.contact-us .contact-info .phones p{
+    font-size: 1.6rem;
+    color: var(--white);
+}
+.contact-us .contact-form{
+    padding: 30px;
+}
+.contact-us .contact-form h4{
+    color: var(--white);
+    font-size: 2rem;
+}
+.contact-us .contact-form p{
+    color: #E1E1E1;
+    font-size: 1.8rem;
+}
+.contact-us .contact-form label{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--white);
+}
+.contact-us .contact-form input,
+.contact-us .contact-form textarea{
+    padding: 5px 0;
+    width: 100%;
+    border-radius: 6px;
+}
+.contact-us .contact-form input[type = 'submit']{
+    margin: 20px 0;
+    color: var(--second-color);
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+/* Media Query */
+@media (max-width:1200px){
+    .our-start .time-line .point .top, .our-start .time-line .point .bottom{
+        width: 100%;
+    }
+    .our-services .card,
+    .our-services .middle-card{
+        width: 30%;
+        padding: 30px 10px;
+        margin: 10px 0;
+    }
+
+}
+@media (max-width:991px){
+    .with-jimi .text-content p{
+        width: 100%;
+        font-size: 2rem;
+    }
+    .our-vision .row{
+        flex-direction: column-reverse;
+    }
+    .our-vision .text-content .vision{
+        transform: translateX(0);
+        margin: 10px 0;
+    }
+    .our-vision .text-content .vision .content{
+        display: flex;
+        padding: 5px 30px;
+        width: 70%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .our-services .card,
+    .our-services .middle-card{
+        width: 45%;
+    }
+    .our-services .middle-card{
+        background-color: #2D2D2D;
+    }
+    .our-services .middle-card span{
+        color: var(--second-color);
+    }
+    .our-services .middle-card a{
+        background-color: var(--second-color);
+    }
+    .why-us .card h5{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width:768px){
+    .our-start .time-line{
+        margin: 50px 0;
+    }
+
+    .our-start .time-line .point span{
+        color: var(--white);
+        font-weight: 600;
+        font-size: 1.4rem;
+        background-color: var(--main-color);
+        border-radius: 50%;
+        padding: 10px;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .our-start .time-line .point::before{
+        content: '';
+        position: absolute;
+        width: 100%;
+        z-index: -1;
+        height: 1px;
+        background-color: #626366;
+        top: 20px;
+    }
+    .why-us .card{
+        margin: 30px auto;
+    }
+    .with-jimi{
+        padding: 100px  0;
+    }
+    .contact-us .contact-info, .contact-us .contact-form{
+        width: 100%;
+    }
+    footer  .row > div{
+        margin: 15px 0;
+    }
+    footer .social-media{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    footer .social-media-links p{
+        text-align: center;
+    }
+    footer .footer-contact-info .footer-emails p, footer .footer-contact-info .footer-fax-tel p{
+        text-align: center;
+    }
+    footer .rights > h5{
+        text-align: center;
+    }
+
+}
+
+@media (max-width:500px){
+    .navbar .navbar-logo img{
+        width: 100px;
+    }
+    .navbar .navbar-elements ul li{
+        font-weight: 500;
+        font-size: 1.6rem;
+        margin: 0px 10px;
+        color: var(--white);
+    }
+    .hero .hero-content h1{
+        font-size: 3.5rem;
+    }
+    .our-start .time-line .point .top, .our-start .time-line .point .bottom{
+        width: 100%;
+        font-size: 1rem;
+    }
+    .our-services .card, .our-services .middle-card{
+        width: 80%;
+        padding: 60px 50px;
+    }
+}
