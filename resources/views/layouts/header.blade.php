@@ -11,7 +11,7 @@
                     <li>الرئيسة</li>
                     <li>الخدمات</li>
                     <li>اتصل بنا</li>
-                    <li>English</li>
+                    <li><a href="/{{ LaravelLocalization::getCurrentLocale() == 'ar' ? 'en' : 'ar' }}">{{__('index.lang')}}</a></li>
                 </ul>
             </div>
         </nav>
