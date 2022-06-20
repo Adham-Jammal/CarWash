@@ -307,6 +307,13 @@
     top: -35px;
 }
 /* equipments */
+section.with-jimi.equipments{
+    top: 0;
+    background: url(/img/blue-waves2.png);
+    background-size: cover;
+    background-position: center;
+    padding: 220px 0;
+}
 .equipments .text-content h4{
     color: var(--white);
 }
@@ -362,6 +369,29 @@
 .future-plans .text-content ul li img{
     width: 25px;
     margin-left: 10px;
+}
+/* Reviwes */
+.testimonials{
+    padding: 75px 0;
+}
+.testimonials .reviews .review{
+    width: 500px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 27px 10px rgba(0, 0, 0, 0.07);
+    border-radius: 8px;
+    padding: 20px;
+}
+.testimonials .reviews .review i{
+    font-size: 1.6rem;
+    margin: 0 5px;
+}
+.testimonials .reviews .review i.active{
+    color: #FBBC05;
+}
+.testimonials .reviews .review p{
+    color: var(--black);
+    font-weight: 700;
+    font-size: 1.6rem;
 }
 /* Contanc US */
 .contact-us{

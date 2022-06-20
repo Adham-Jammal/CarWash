@@ -5,30 +5,16 @@ if (preloader) {
   });
 }
 
-// window.addEventListener("load", () => {
-//     AOS.init({
-//       duration: 1000,
-//       easing: "ease-in-out",
-//       once: true,
-//       mirror: false,
-//     });
-//   });
 
-
-  var swiper = new Swiper('.swiper-container', {
-    effect: 'coverflow',
-    grabCursor: true,
-    centeredSlides: true,
-    slidesPerView: 'auto',
+$('#reviews').owlCarousel({
+    autoplay: true,
     loop: true,
-    coverflowEffect: {
-    rotate: 0,
-    stretch: 0,
-    depth: 1,
-    modifier: 200,
-    slideShadows : true,
-    },
-    pagination: {
-    el: '.swiper-pagination',
-    },
-});
+    infinite:true,
+    nav: false,
+    rtl: true,
+    dots:false,
+    items: 3,
+    autoplayTimeout:4000,
+autoplayHoverPause:true,
+  });
+

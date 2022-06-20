@@ -13,10 +13,10 @@
                 </p>
                 <div class="social-media">
                     <a href="mailto:"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-                    <a href="https://www.facebook.com/awjgroupllc/"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
-                    <a href="https://www.linkedin.com/company/awjgroup-llc/"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
-                    <a href="#"><i class="fab fa-youtube" aria-hidden="true"></i></a>
-                    <a href="https://twitter.com/awjgroup"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fab fa-snapchat" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fab fa-tiktok" aria-hidden="true"></i></a>
+                    <a href=""><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
                 </div>
             </div>
             <div class="col-md-3 footer-contact-info">

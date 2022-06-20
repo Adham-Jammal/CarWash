@@ -280,7 +280,33 @@
         </div>
     </section>
     <section class="testimonials">
+        <div class="reviews" id="reviews">
+            <div class="review">
+                <div class="stars"> <i class="fa fa-star active"></i> <i class="fa fa-star active"></i> <i class="fa fa-star active"></i> <i class="fa fa-star active"></i> <i class="fa fa-star active"></i> </div>
+                <p>غسيل كلش محترف، بسرعة هائلة وتعامل مريح جداً وعلى
+                    الوقت تماماً، طبعا وأسعار مدروسة جداًشكراً جيمي ووش</p>
+                    <span class="review-date">
+                        2. month ago
+                    </span>
+            </div>
+            <div class="review">
+                <div class="stars"> <i class="fa fa-star active"></i> <i class="fa fa-star active"></i> <i class="fa fa-star active"></i> <i class="fa fa-star active"></i> <i class="fa fa-star active"></i> </div>
+                <p>غسيل كلش محترف، بسرعة هائلة وتعامل مريح جداً وعلى
+                    الوقت تماماً، طبعا وأسعار مدروسة جداًشكراً جيمي ووش</p>
+                    <span class="review-date">
+                        2. month ago
+                    </span>
+            </div>
+            <div class="review">
+                <div class="stars"> <i class="fa fa-star active"></i> <i class="fa fa-star active"></i> <i class="fa fa-star active"></i> <i class="fa fa-star active"></i> <i class="fa fa-star active"></i> </div>
+                <p>غسيل كلش محترف، بسرعة هائلة وتعامل مريح جداً وعلى
+                    الوقت تماماً، طبعا وأسعار مدروسة جداًشكراً جيمي ووش</p>
+                    <span class="review-date">
+                        2. month ago
+                    </span>
+            </div>
 
+        </div>
     </section>
     <section class="contact-us">
         <div class="container">
