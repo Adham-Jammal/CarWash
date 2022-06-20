@@ -191,6 +191,7 @@
     align-items: center;
 }
 .our-services .card{
+    position: relative;
     min-height: 380px;
     width: 18%;
     padding: 30px 10px;
@@ -220,6 +221,10 @@
 }
 .our-services .card a{
     display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 25px;
     border-radius: 8px;
     width: 55%;
     font-size: 1.6rem;
@@ -233,6 +238,7 @@
 
 
 .our-services .middle-card{
+    position: relative;
     width: 18%;
     padding: 60px 10px;
     border-radius: 12px;
@@ -269,7 +275,7 @@
     background-color: #0A61AE;
     color: var(--white);
     padding: 1px 0;
-    margin: 20px auto 0;
+    margin: 30px auto 0;
 }
 /* Why Us */
 .why-us{
@@ -586,6 +592,10 @@ section.with-jimi.equipments{
     footer .rights > h5{
         text-align: center;
     }
+    .testimonials .reviews .right,
+    .testimonials .reviews .left{
+        display: none;
+    }
 
 }
 
@@ -593,12 +603,7 @@ section.with-jimi.equipments{
     .navbar .navbar-logo img{
         width: 100px;
     }
-    .navbar .navbar-elements ul li{
-        font-weight: 500;
-        font-size: 1.6rem;
-        margin: 0px 10px;
-        color: var(--white);
-    }
+
     .hero .hero-content h1{
         font-size: 3.5rem;
     }

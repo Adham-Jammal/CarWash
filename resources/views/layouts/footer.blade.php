@@ -9,7 +9,7 @@
             </div>
             <div class="col-md-4 social-media-links">
                 <p>
-                    شركة سعودية تعمل بأعلى درجات الجودة والكفـــــــــــــــاءة  وتقدم أفضل الخدمات بخطوات مدروسة تلائـــــــــــــم سيارتك
+                    {{__('index.53')}}
                 </p>
                 <div class="social-media">
                     <a href="mailto:"><i class="fa fa-envelope" aria-hidden="true"></i></a>
@@ -21,7 +21,7 @@
             </div>
             <div class="col-md-3 footer-contact-info">
                 <div>
-                <h5>معلومات التواصل</h5>
+                <h5>{{__('index.47')}}</h5>
                 <div class="footer-emails">
                     <p> info@jimi.com.sa</p>
                     <p>920003447</p>

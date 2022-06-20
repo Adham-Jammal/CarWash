@@ -29,3 +29,11 @@
  .navbar .navbar-elements ul li a:hover{
     color: var(--main-color);
 }
+@media (max-width:500px){
+    .navbar .navbar-elements ul li a{
+        font-weight: 500;
+        font-size: 1.4rem;
+        margin: 0px 5px;
+        color: var(--white);
+    }
+}
