@@ -399,7 +399,7 @@ section.with-jimi.equipments{
 }
 /* Contanc US */
 .contact-us{
-    background: url(/img/contact-background.png);
+    background: url(../img/contact-background.png);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;

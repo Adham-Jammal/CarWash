@@ -35,7 +35,7 @@ return [
     "25"      => "Polishing quality wash",
     "26"     => "The quality of the used materials and the quality of the pads for your car",
     "27"        => " We serve you on your location ",
-    "28"         => "  The equipments we use and its source :  ",
+    "28"         => "  The equipments we use and its source  ",
     "29"  => "The used equipments are Italian  ",
     "30"     => "steam washing machine  ",
     "31"  => "  Water washing machine  ",
