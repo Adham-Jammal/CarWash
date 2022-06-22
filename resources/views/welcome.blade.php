@@ -102,18 +102,18 @@
         <div class="container">
             <h2>{{__('index.19')}}</h2>
             <p class="description">{{__('index.20')}}</p>
-            <div class="cards">
+            <div class="cards owl-carousel owl-theme" >
 
                 <div class="card" data-aos="zoom-in" data-aos-duration="500">
                     <h4> {{__('index.s1')}} </h4>
                     <span class="price">
-                        <sup>RAS</sup>75
+                        <sup>RAS</sup>55/65/75
                     </span>
                     <p>
                         {{__('index.s1d')}}
                     </p>
 
-                    <a href="#">{{__('index.23')}}</a>
+                    <button onclick="show()">{{__('index.23')}}</button>
                 </div>
 
                 <div class="card"  data-aos="zoom-in" data-aos-duration="750">
@@ -125,7 +125,7 @@
                         {{__('index.s2d')}}
                     </p>
 
-                    <a href="#">{{__('index.23')}}</a>
+                    <button onclick="show()">{{__('index.23')}}</button>
                 </div>
 
                 <div class="card"  data-aos="zoom-in" data-aos-duration="1000">
@@ -137,31 +137,43 @@
                         {{__('index.22')}}
                     </p>
 
-                    <a href="#">{{__('index.23')}}</a>
+                    <button onclick="show()">{{__('index.23')}}</button>
                 </div>
 
                 <div class="card"  data-aos="zoom-in" data-aos-duration="1250">
                     <h4>  {{__('index.s3')}} </h4>
                     <span class="price">
-                        <sup>RAS</sup>450
+                        <sup>RAS</sup>450/250/350
                     </span>
                     <p>
                         {{__('index.s3d')}}
                     </p>
 
-                    <a href="#">{{__('index.23')}}</a>
+                    <button onclick="show()">{{__('index.23')}}</button>
                 </div>
 
                 <div class="card"  data-aos="zoom-in" data-aos-duration="1500">
                     <h4> {{__('index.s4')}}   </h4>
                     <span class="price">
-                        <sup>???</sup>RAS
+                        <sup>RAS</sup>50
                     </span>
                     <p>
                         {{__('index.s4d')}}
                     </p>
 
-                    <a href="#">{{__('index.23')}}</a>
+                    <button onclick="show()">{{__('index.23')}}</button>
+                </div>
+
+                <div class="card"  data-aos="zoom-in" data-aos-duration="1500">
+                    <h4> {{__('index.s5')}}   </h4>
+                    <span class="price">
+                        <sup>RAS</sup>100
+                    </span>
+                    <p>
+                        {{__('index.s5d')}}
+                    </p>
+
+                    <button onclick="show()">{{__('index.23')}}</button>
                 </div>
 
             </div>
