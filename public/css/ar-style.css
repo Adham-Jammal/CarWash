@@ -365,7 +365,11 @@ section.with-jimi.equipments{
 }
 /* Reviwes */
 .testimonials{
-    padding: 150px 0;
+    padding: 50px 0;
+}
+.testimonials h2{
+    text-align: center;
+    font-size: 3rem;
 }
 .testimonials .reviews {
     margin: 20px 0;
@@ -374,7 +378,7 @@ section.with-jimi.equipments{
     align-items: center;
 }
 .testimonials .reviews .review{
-    width: 500px;
+    min-height: 200px;
     background: #FFFFFF;
     box-shadow: 2px 2px 27px 10px rgba(0, 0, 0, 0.07);
     border-radius: 8px;
@@ -383,25 +387,25 @@ section.with-jimi.equipments{
 .testimonials .reviews .center{
     z-index: 2;
 }
-.testimonials .reviews .left{
-    transform: scale(.8) translateX(80px);
-    z-index: 1;
+.owl-item.active.center{
+    transform: scale(1.2);
 }
-.testimonials .reviews .right{
-    transform: scale(.8) translateX(-80px);
-    z-index: 1;
-}
+
 .testimonials .reviews .review i{
     font-size: 1.6rem;
     margin: 0 5px;
 }
-.testimonials .reviews .review i.active{
+.testimonials .reviews .review i.active-star{
     color: #FBBC05;
 }
 .testimonials .reviews .review p{
     color: var(--black);
     font-weight: 700;
     font-size: 1.6rem;
+}
+span.review-date{
+    position:absolute;
+    bottom: 20px;
 }
 /* Contanc US */
 .contact-us{
@@ -581,6 +585,9 @@ section.with-jimi.equipments{
     .testimonials .reviews .right,
     .testimonials .reviews .left{
         display: none;
+    }
+    .owl-item.active.center{
+        transform: scale(1);
     }
 
 }

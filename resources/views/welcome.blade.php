@@ -17,7 +17,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-7 col-md-6 image-content" data-aos="fade-left" data-aos-duration="1000">
-                    <img src="{{ asset('img/jimi-car.png') }}" alt="car">
+                    <img src="{{ asset('img/car2.png') }}" alt="car">
                 </div>
                 <div class="col-lg-5 col-md-6 text-content" data-aos="fade-right" data-aos-duration="1000">
                     <h4>{{__('index.1')}}</h4>
@@ -217,7 +217,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-7 image-content" data-aos="fade-left" data-aos-duration="1000">
-                    <img src="{{ asset('img/jimi-car.png') }}" alt="car">
+                    <img src="{{ asset('img/car2.png') }}" alt="car">
                 </div>
                 <div class="col-md-5 text-content" data-aos="fade-right" data-aos-duration="1000">
                     <h4> {{__('index.28')}} </h4>
@@ -263,31 +263,32 @@
         </div>
     </section>
     <section class="testimonials">
-        <div class="reviews">
-            <img src="{{ asset('img/1.png') }}" alt="">
-            <img src="{{ asset('img/2.png') }}" alt="">
-            <img src="{{ asset('img/3.png') }}" alt="">
-            <img src="{{ asset('img/4.png') }}" alt="">
-            <img src="{{ asset('img/5.png') }}" alt="">
-        </div>
-        <div class="reviews" id="reviews">
-            <div class="review right">
-                <div class="stars"> <i class="fa fa-star active"></i> <i class="fa fa-star active"></i> <i class="fa fa-star active"></i> <i class="fa fa-star active"></i> <i class="fa fa-star active"></i> </div>
+        <h2>{{__('index.55')}}</h2>
+        <div class="reviews owl-carousel owl-theme" id="reviews">
+            <div class="review">
+                <div class="stars"> <i class="fa fa-star active-star"></i> <i class="fa fa-star active-star"></i> <i class="fa fa-star active-star"></i> <i class="fa fa-star active-star"></i> <i class="fa fa-star active-star"></i> </div>
                 <p>{{__('index.45')}}</p>
                     <span class="review-date">
                         {{__('index.46')}}
                     </span>
             </div>
             <div class="review center">
-                <div class="stars"> <i class="fa fa-star active"></i> <i class="fa fa-star active"></i> <i class="fa fa-star active"></i> <i class="fa fa-star active"></i> <i class="fa fa-star active"></i> </div>
-                <p>{{__('index.45')}}</p>
+                <div class="stars"> <i class="fa fa-star active-star"></i> <i class="fa fa-star active-star"></i> <i class="fa fa-star active-star"></i> <i class="fa fa-star active-star"></i> <i class="fa fa-star active-star"></i> </div>
+                <p>{{__('index.r2')}}</p>
                     <span class="review-date">
                         {{__('index.46')}}
                     </span>
             </div>
-            <div class="review left">
-                <div class="stars"> <i class="fa fa-star active"></i> <i class="fa fa-star active"></i> <i class="fa fa-star active"></i> <i class="fa fa-star active"></i> <i class="fa fa-star active"></i> </div>
-                <p>{{__('index.45')}}</p>
+            <div class="review">
+                <div class="stars"> <i class="fa fa-star active-star"></i> <i class="fa fa-star active-star"></i> <i class="fa fa-star active-star"></i> <i class="fa fa-star active-star"></i> <i class="fa fa-star active-star"></i> </div>
+                <p>{{__('index.r3')}}</p>
+                    <span class="review-date">
+                        {{__('index.46')}}
+                    </span>
+            </div>
+            <div class="review">
+                <div class="stars"> <i class="fa fa-star active-star"></i> <i class="fa fa-star active-star"></i> <i class="fa fa-star active-star"></i> <i class="fa fa-star active-star"></i> <i class="fa fa-star active-star"></i> </div>
+                <p>{{__('index.r4')}}</p>
                     <span class="review-date">
                         {{__('index.46')}}
                     </span>

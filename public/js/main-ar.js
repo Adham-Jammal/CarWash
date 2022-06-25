@@ -50,6 +50,29 @@ $('.cards').owlCarousel({
     }
 })
 
+$('#reviews').owlCarousel({
+    autoplay:true,
+    autoplayTimeout:2000,
+    autoplayHoverPause:true,
+    center: true,
+    loop: true,
+    navText: [" ", " "],
+    dots: false,
+    rtl: true,
+    margin: 20,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        768:{
+            loop:true,
+            items:3,
+            nav:false
+        },
+    }
+})
+
 
 let show = () =>{
     document.getElementById('pop_up').classList.add('popup-active');
