@@ -17,7 +17,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-7 col-md-6 image-content" data-aos="fade-left" data-aos-duration="1000">
-                    <img src="{{ asset('img/car2.png') }}" alt="car">
+                    <img src="{{ asset('img/car2.jpg') }}" alt="car">
                 </div>
                 <div class="col-lg-5 col-md-6 text-content" data-aos="fade-right" data-aos-duration="1000">
                     <h4>{{__('index.1')}}</h4>
@@ -217,7 +217,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-7 image-content" data-aos="fade-left" data-aos-duration="1000">
-                    <img src="{{ asset('img/car2.png') }}" alt="car">
+                    <img src="{{ asset('img/car2.jpg') }}" alt="car">
                 </div>
                 <div class="col-md-5 text-content" data-aos="fade-right" data-aos-duration="1000">
                     <h4> {{__('index.28')}} </h4>
