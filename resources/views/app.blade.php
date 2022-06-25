@@ -21,6 +21,7 @@
 
 </head>
 <body>
+    <a href="#" id="whatsapp"><i class="fab fa-whatsapp"></i></a>
     <div id="preloader"></div>
 
     <div id="pop_up">
@@ -32,7 +33,7 @@
                 <input type="text" name="car-type" id="car_type">
                 <label for="color">{{__('index.pop3')}}</label>
                 <input type="color" name="color" id="color">
-                <label for="color">{{__('index.pop2')}}</label>
+                <label for="color">{{__('index.pop4')}}</label>
                 <select name="size" id="size">
                     <option value="small">{{__('index.pop21')}}</option>
                     <option value="medium">{{__('index.pop22')}}</option>

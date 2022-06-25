@@ -143,7 +143,7 @@
                 <div class="card"  data-aos="zoom-in" data-aos-duration="1250">
                     <h4>  {{__('index.s3')}} </h4>
                     <span class="price">
-                        <sup>RAS</sup>450/250/350
+                        <sup>RAS</sup>450/350/250
                     </span>
                     <p>
                         {{__('index.s3d')}}

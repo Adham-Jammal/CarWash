@@ -65,7 +65,7 @@
 .our-start .time-line{
     height: 200px;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     align-items: center;
     justify-content: space-around;
 }
