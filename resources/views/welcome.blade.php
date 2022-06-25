@@ -266,32 +266,24 @@
         <h2>{{__('index.55')}}</h2>
         <div class="reviews owl-carousel owl-theme" id="reviews">
             <div class="review">
+                <h4 class="name">{{__('index.45n')}}</h4>
                 <div class="stars"> <i class="fa fa-star active-star"></i> <i class="fa fa-star active-star"></i> <i class="fa fa-star active-star"></i> <i class="fa fa-star active-star"></i> <i class="fa fa-star active-star"></i> </div>
                 <p>{{__('index.45')}}</p>
-                    <span class="review-date">
-                        {{__('index.46')}}
-                    </span>
             </div>
             <div class="review center">
+                <h4 class="name">{{__('index.r2n')}}</h4>
                 <div class="stars"> <i class="fa fa-star active-star"></i> <i class="fa fa-star active-star"></i> <i class="fa fa-star active-star"></i> <i class="fa fa-star active-star"></i> <i class="fa fa-star active-star"></i> </div>
                 <p>{{__('index.r2')}}</p>
-                    <span class="review-date">
-                        {{__('index.46')}}
-                    </span>
             </div>
             <div class="review">
+                <h4 class="name">{{__('index.r3n')}}</h4>
                 <div class="stars"> <i class="fa fa-star active-star"></i> <i class="fa fa-star active-star"></i> <i class="fa fa-star active-star"></i> <i class="fa fa-star active-star"></i> <i class="fa fa-star active-star"></i> </div>
                 <p>{{__('index.r3')}}</p>
-                    <span class="review-date">
-                        {{__('index.46')}}
-                    </span>
             </div>
             <div class="review">
+                <h4 class="name">{{__('index.r4n')}}</h4>
                 <div class="stars"> <i class="fa fa-star active-star"></i> <i class="fa fa-star active-star"></i> <i class="fa fa-star active-star"></i> <i class="fa fa-star active-star"></i> <i class="fa fa-star active-star"></i> </div>
                 <p>{{__('index.r4')}}</p>
-                    <span class="review-date">
-                        {{__('index.46')}}
-                    </span>
             </div>
 
         </div>
