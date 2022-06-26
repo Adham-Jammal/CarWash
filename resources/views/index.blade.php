@@ -113,7 +113,7 @@
                         {{__('index.s1d')}}
                     </p>
 
-                    <button onclick="show()">{{__('index.23')}}</button>
+                    <button onclick="show(' {{__('index.s1')}}')">{{__('index.23')}}</button>
                 </div>
 
                 <div class="card"  data-aos="zoom-in" data-aos-duration="750">
@@ -125,7 +125,7 @@
                         {{__('index.s2d')}}
                     </p>
 
-                    <button onclick="show()">{{__('index.23')}}</button>
+                    <button onclick="show(' {{__('index.s2')}}')">{{__('index.23')}}</button>
                 </div>
 
                 <div class="card"  data-aos="zoom-in" data-aos-duration="1000">
@@ -137,7 +137,7 @@
                         {{__('index.22')}}
                     </p>
 
-                    <button onclick="show()">{{__('index.23')}}</button>
+                    <button onclick="show(' {{__('index.21')}}')">{{__('index.23')}}</button>
                 </div>
 
                 <div class="card"  data-aos="zoom-in" data-aos-duration="1250">
@@ -149,7 +149,7 @@
                         {{__('index.s3d')}}
                     </p>
 
-                    <button onclick="show()">{{__('index.23')}}</button>
+                    <button onclick="show(' {{__('index.s3')}}')">{{__('index.23')}}</button>
                 </div>
 
                 <div class="card"  data-aos="zoom-in" data-aos-duration="1500">
@@ -161,7 +161,7 @@
                         {{__('index.s4d')}}
                     </p>
 
-                    <button onclick="show()">{{__('index.23')}}</button>
+                    <button onclick="show(' {{__('index.s4')}}')">{{__('index.23')}}</button>
                 </div>
 
                 <div class="card"  data-aos="zoom-in" data-aos-duration="1500">
@@ -173,7 +173,7 @@
                         {{__('index.s5d')}}
                     </p>
 
-                    <button onclick="show()">{{__('index.23')}}</button>
+                    <button onclick="show(' {{__('index.s5')}}')">{{__('index.23')}}</button>
                 </div>
 
             </div>
@@ -322,11 +322,12 @@
                 <div class="contact-form">
                     <h4>{{__('index.48')}} </h4>
                     <p>{{__('index.49')}}</p>
-                    <form action="#">
+                    <form action="{{route('contact')}}" method="POST">
+                        @csrf
                         <label for="email">{{__('index.50')}}</label>
-                        <input type="email" name="email" id="email">
+                        <input required type="email" name="email" id="email">
                         <label for="message">{{__('index.51')}}</label>
-                        <textarea name="message" id="message" cols="30" rows="6"></textarea>
+                        <textarea required name="message" id="message" cols="30" rows="6"></textarea>
                         <input type="submit" name="send" id="send" value="{{__('index.52')}}">
                     </form>
                 </div>

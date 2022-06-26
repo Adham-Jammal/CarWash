@@ -73,7 +73,9 @@ $('#reviews').owlCarousel({
 })
 
 
-let show = () =>{
+let show = (service) =>{
+
+    document.getElementById('service_req').value = service;
     document.getElementById('pop_up').classList.add('popup-active');
 
 }

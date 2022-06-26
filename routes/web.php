@@ -22,7 +22,8 @@ Route::group(
 
 
         Route::get('/'         ,[PageController::class,'index'])->name('index');
-        //Route::post('/contact' ,[PageController::class,'contact'])->name('contact');
+        Route::post('/contact' ,[PageController::class,'contact'])->name('contact');
+        Route::post('/request' ,[PageController::class,'request'])->name('request');
 
     });
 

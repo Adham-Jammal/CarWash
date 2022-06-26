@@ -87,5 +87,6 @@ return [
     "r3"            => "The approach was elegant and the work was great. thanks jimi",
     "r4n"            => "Ghadi Alezdihar",
     "r4"            => " Thank you, I'll keep washing my car at Jimi Wash",
+    "ph2"           => "Phone number"
 
 ];
