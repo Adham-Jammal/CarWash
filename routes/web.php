@@ -25,7 +25,16 @@ Route::group(
         Route::post('/contact' ,[PageController::class,'contact'])->name('contact');
         Route::post('/request' ,[PageController::class,'request'])->name('request');
 
-    });
+    });Route::get('/clear', function() {
+
+        Artisan::call('cache:clear');
+        Artisan::call('config:clear');
+        Artisan::call('config:cache');
+        Artisan::call('view:clear');
+     
+        return "Cleared!";
+     
+     });
 
 
 
