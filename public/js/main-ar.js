@@ -51,7 +51,6 @@ $('.cards').owlCarousel({
 })
 
 $('#reviews').owlCarousel({
-    autoplayHoverPause:true,
     center: true,
     loop: true,
     navText: [" ", " "],
@@ -62,11 +61,11 @@ $('#reviews').owlCarousel({
         0:{
             autoplay:false,
             items:1,
-            nav:true
         },
         768:{
             autoplay:true,
             autoplayTimeout:2000,
+            autoplayHoverPause:true,
             loop:true,
             items:3,
             nav:false
