@@ -18,7 +18,7 @@
  <br>
 
  <p>
-    لون السيارة : <span style="position: absolute; top:26px; color:{{$color}};font-size:235px" >.</span>
+    لون السيارة : <span style="position: absolute; top:0px; color:{{$color}};font-size:235px" >.</span>
  </p>
  <br>
 

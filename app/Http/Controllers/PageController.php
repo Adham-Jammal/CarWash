@@ -55,6 +55,7 @@ class PageController extends Controller
 
             return back()->with('message', 'done');
         } catch (\Throwable $th) {
+
             dd('تأكد من صحة إعدادات الإيميل !');
         }
     }
