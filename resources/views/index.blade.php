@@ -143,7 +143,7 @@
                 <div class="card"  data-aos="zoom-in" data-aos-duration="1250">
                     <h4>  {{__('index.s3')}} </h4>
                     <span class="price">
-                        <sup>RAS</sup>450/350/250
+                        <sup>RAS</sup>250/350/450
                     </span>
                     <p>
                         {{__('index.s3d')}}
@@ -313,8 +313,7 @@
                             <i class="fa fa-phone"></i>
                         </div>
                         <div class="content">
-                            <p>+966530353033</p>
-                            <p>+966530353032</p>
+                            <p>+96650292144</p>
                         </div>
                     </div>
                 </div>

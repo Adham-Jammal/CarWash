@@ -50,8 +50,6 @@ $('.cards').owlCarousel({
     }
 })
 $('#reviews').owlCarousel({
-    autoplay:true,
-    autoplayTimeout:2000,
     autoplayHoverPause:true,
     center: true,
     loop: true,
@@ -61,10 +59,13 @@ $('#reviews').owlCarousel({
     margin: 20,
     responsive:{
         0:{
+            autoplay:false,
             items:1,
             nav:true
         },
         768:{
+            autoplay:true,
+            autoplayTimeout:2000,
             loop:true,
             items:3,
             nav:false

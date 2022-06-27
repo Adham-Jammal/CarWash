@@ -16,7 +16,7 @@
                     <a href="#"><i class="fab fa-snapchat" aria-hidden="true"></i></a>
                     <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
                     <a href="#"><i class="fab fa-tiktok" aria-hidden="true"></i></a>
-                    <a href=""><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=96650292144&text="><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
                 </div>
             </div>
             <div class="col-md-3 footer-contact-info">
@@ -24,8 +24,8 @@
                 <h5>{{__('index.47')}}</h5>
                 <div class="footer-emails">
                     <p> info@jimi.com.sa</p>
-                    {{-- <p>920003447</p>
-                    <p>966530353032</p> --}}
+                    <p>050 292 1441</p>
+                    {{-- <p>966530353032</p> --}}
                 </div>
             </div>
             </div>
