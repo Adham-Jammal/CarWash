@@ -610,6 +610,21 @@ span.review-date{
     .our-services .card, .our-services .middle-card{
         width: 90%;
         margin: 0 auto;
-        padding: 60px 50px;
+        padding: 30px;
+    }
+    .our-services .card h4{
+        font-size: 2.2rem;
+    }
+    .our-services .card p{
+        text-align: center;
+        font-size: 2rem;
+        color: var(--white);
+    }
+    .owl-item.active.center{
+        transform: scale(1);
+    }
+    .testimonials .reviews .review{
+        width: 90%;
+        margin: 0 auto;
     }
 }

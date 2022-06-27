@@ -168,7 +168,7 @@ a{
   }
   #pop_up form{
     position: relative;
-    height: 500px;
+    height: 600px;
     background-color: var(--second-color);
     color: var(--white);
     padding: 20px;
@@ -221,7 +221,7 @@ a{
   }
 @media (max-width:500px) {
     #pop_up form{
-        height: 480px;
+        height: 550px;
         width: 330px;
     }
 
