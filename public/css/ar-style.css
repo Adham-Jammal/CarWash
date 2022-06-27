@@ -209,14 +209,18 @@
     font-size: 1.6rem;
 }
 .our-services .card span{
-    display: block;
+    display: flex;
     text-align: center;
     color: var(--second-color);
     font-size: 1.3rem;
     font-weight: 700;
     margin: 20px 0;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: row-reverse;
 }
 .our-services .card span sup{
+    margin: 0 5px;
     font-size: 2.5rem;
 }
 .our-services .card p{

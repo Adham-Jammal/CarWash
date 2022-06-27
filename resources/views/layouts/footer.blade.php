@@ -23,8 +23,8 @@
                 <div>
                 <h5>{{__('index.47')}}</h5>
                 <div class="footer-emails">
-                    <p> info@jimi.com.sa</p>
-                    <p>050 292 1441</p>
+                    <p> info@jimi.sa</p>
+                    <p>0502921441</p>
                     {{-- <p>966530353032</p> --}}
                 </div>
             </div>

@@ -218,6 +218,7 @@
     margin: 20px 0;
 }
 .our-services .card span sup{
+    margin: 0 5px;
     font-size: 2.5rem;
 }
 .our-services .card p{

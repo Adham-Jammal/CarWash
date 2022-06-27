@@ -107,7 +107,7 @@
                 <div class="card" data-aos="zoom-in" data-aos-duration="500">
                     <h4> {{__('index.s1')}} </h4>
                     <span class="price">
-                        <sup>RAS</sup>55/65/75
+                        <sup> {{__('index.RAS')}} </sup> 55/65/75
                     </span>
                     <p>
                         {{__('index.s1d')}}
@@ -119,7 +119,7 @@
                 <div class="card"  data-aos="zoom-in" data-aos-duration="750">
                     <h4> {{__('index.s2')}} </h4>
                     <span class="price">
-                        <sup>RAS</sup>100
+                        <sup> {{__('index.RAS')}} </sup> 80/90/100
                     </span>
                     <p>
                         {{__('index.s2d')}}
@@ -131,7 +131,7 @@
                 <div class="card"  data-aos="zoom-in" data-aos-duration="1000">
                     <h4>{{__('index.21')}}</h4>
                     <span class="price">
-                        <sup>RAS</sup>450
+                        <sup> {{__('index.RAS')}} </sup> 250/350/450
                     </span>
                     <p>
                         {{__('index.22')}}
@@ -143,7 +143,7 @@
                 <div class="card"  data-aos="zoom-in" data-aos-duration="1250">
                     <h4>  {{__('index.s3')}} </h4>
                     <span class="price">
-                        <sup>RAS</sup>250/350/450
+                        <sup>{{__('index.RAS')}}</sup> 250/350/450
                     </span>
                     <p>
                         {{__('index.s3d')}}
@@ -155,7 +155,7 @@
                 <div class="card"  data-aos="zoom-in" data-aos-duration="1500">
                     <h4> {{__('index.s4')}}   </h4>
                     <span class="price">
-                        <sup>RAS</sup>50
+                        <sup>{{__('index.RAS')}}</sup> 50
                     </span>
                     <p>
                         {{__('index.s4d')}}
@@ -167,7 +167,7 @@
                 <div class="card"  data-aos="zoom-in" data-aos-duration="1500">
                     <h4> {{__('index.s5')}}   </h4>
                     <span class="price">
-                        <sup>RAS</sup>100
+                        <sup>{{__('index.RAS')}}</sup> 100
                     </span>
                     <p>
                         {{__('index.s5d')}}
@@ -303,8 +303,7 @@
                             <i class="fa fa-envelope"></i>
                         </div>
                         <div class="content">
-                            <p>sales-carwash@jimi.com</p>
-                            <p>info-carwash@jimi.com</p>
+                            <p>info@jimi.sa</p>
                         </div>
                     </div>
 
@@ -313,7 +312,7 @@
                             <i class="fa fa-phone"></i>
                         </div>
                         <div class="content">
-                            <p>+96650292144</p>
+                            <p>050292144</p>
                         </div>
                     </div>
                 </div>
