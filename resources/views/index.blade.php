@@ -17,7 +17,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-7 col-md-6 image-content" data-aos="fade-left" data-aos-duration="1000">
-                    <img src="{{ asset('img/car2.jpg') }}" alt="car">
+                    <img src="{{ asset('img/car2.png') }}" alt="car">
                 </div>
                 <div class="col-lg-5 col-md-6 text-content" data-aos="fade-right" data-aos-duration="1000">
                     <h4>{{__('index.1')}}</h4>
@@ -107,73 +107,73 @@
                 <div class="card" data-aos="zoom-in" data-aos-duration="500">
                     <h4> {{__('index.s1')}} </h4>
                     <span class="price">
-                        <sup> {{__('index.RAS')}} </sup> 55/65/75
+                        <sup> 55 | 65 | 75 </sup>{{__('index.RAS')}}
                     </span>
                     <p>
                         {{__('index.s1d')}}
                     </p>
 
-                    <button onclick="show(' {{__('index.s1')}}')">{{__('index.23')}}</button>
+                    <button  onclick="window.location.href='https:/api.whatsapp.com/send?phone=966502921441&text=%D8%AE%D8%AF%D9%85%D8%A9%20%D8%A7%D9%84%D8%AF%D8%A7%D8%AE%D9%84%20%D9%88%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D8%AC'">{{__('index.23')}}</button>
                 </div>
 
                 <div class="card"  data-aos="zoom-in" data-aos-duration="750">
                     <h4> {{__('index.s2')}} </h4>
                     <span class="price">
-                        <sup> {{__('index.RAS')}} </sup> 80/90/100
+                        <sup> 80 | 90 | 100 </sup> {{__('index.RAS')}}
                     </span>
                     <p>
                         {{__('index.s2d')}}
                     </p>
 
-                    <button onclick="show(' {{__('index.s2')}}')">{{__('index.23')}}</button>
+                    <button  onclick="window.location.href='https:/api.whatsapp.com/send?phone=966502921441&text=%D8%BA%D8%B3%D9%8A%D9%84%20%D8%A8%D8%A7%D9%84%D8%A8%D8%AE%D8%A7%D8%B1'">{{__('index.23')}}</button>
                 </div>
 
                 <div class="card"  data-aos="zoom-in" data-aos-duration="1000">
                     <h4>{{__('index.21')}}</h4>
                     <span class="price">
-                        <sup> {{__('index.RAS')}} </sup> 250/350/450
+                        <sup> 250 | 350 | 450 </sup> {{__('index.RAS')}}
                     </span>
                     <p>
                         {{__('index.22')}}
                     </p>
 
-                    <button onclick="show(' {{__('index.21')}}')">{{__('index.23')}}</button>
+                    <button  onclick="window.location.href='https:/api.whatsapp.com/send?phone=966502921441&text=%D8%AA%D9%84%D9%85%D9%8A%D8%B9%20%D8%A7%D9%84%D8%A8%D8%AF%D9%8A%20%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A'">{{__('index.23')}}</button>
                 </div>
 
                 <div class="card"  data-aos="zoom-in" data-aos-duration="1250">
                     <h4>  {{__('index.s3')}} </h4>
                     <span class="price">
-                        <sup>{{__('index.RAS')}}</sup> 250/350/450
+                        <sup>250 | 350 | 450</sup> {{__('index.RAS')}}
                     </span>
                     <p>
                         {{__('index.s3d')}}
                     </p>
 
-                    <button onclick="show(' {{__('index.s3')}}')">{{__('index.23')}}</button>
+                    <button  onclick="window.location.href='https:/api.whatsapp.com/send?phone=966502921441&text=%D8%A7%D9%84%D8%AA%D9%84%D9%85%D9%8A%D8%B9%20%D8%A7%D9%84%D8%AF%D8%A7%D8%AE%D9%84%D9%8A'">{{__('index.23')}}</button>
                 </div>
 
                 <div class="card"  data-aos="zoom-in" data-aos-duration="1500">
                     <h4> {{__('index.s4')}}   </h4>
                     <span class="price">
-                        <sup>{{__('index.RAS')}}</sup> 50
+                        <sup> 50 </sup>{{__('index.RAS')}}
                     </span>
                     <p>
                         {{__('index.s4d')}}
                     </p>
 
-                    <button onclick="show(' {{__('index.s4')}}')">{{__('index.23')}}</button>
+                    <button onclick="window.location.href='https:/api.whatsapp.com/send?phone=966502921441&text=%D8%AA%D9%84%D9%85%D9%8A%D8%B9%20%D8%A7%D9%84%D9%85%D8%A7%D9%83%D9%8A%D9%86%D8%A9'">{{__('index.23')}}</button>
                 </div>
 
                 <div class="card"  data-aos="zoom-in" data-aos-duration="1500">
                     <h4> {{__('index.s5')}}   </h4>
                     <span class="price">
-                        <sup>{{__('index.RAS')}}</sup> 100
+                        <sup>100</sup> {{__('index.RAS')}}
                     </span>
                     <p>
                         {{__('index.s5d')}}
                     </p>
 
-                    <button onclick="show(' {{__('index.s5')}}')">{{__('index.23')}}</button>
+                    <button  onclick="window.location.href='https:/api.whatsapp.com/send?phone=966502921441&text=%D8%AA%D9%84%D9%85%D9%8A%D8%B9%20%D8%A7%D9%84%D8%B4%D9%85%D8%B9%D8%A7%D8%AA'">{{__('index.23')}}</button>
                 </div>
 
             </div>
@@ -217,7 +217,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-7 image-content" data-aos="fade-left" data-aos-duration="1000">
-                    <img src="{{ asset('img/car2.jpg') }}" alt="car">
+                    <img src="{{ asset('img/car2.png') }}" alt="car">
                 </div>
                 <div class="col-md-5 text-content" data-aos="fade-right" data-aos-duration="1000">
                     <h4> {{__('index.28')}} </h4>
@@ -312,7 +312,7 @@
                             <i class="fa fa-phone"></i>
                         </div>
                         <div class="content">
-                            <p>050292144</p>
+                            <p>0502921441</p>
                         </div>
                     </div>
                 </div>

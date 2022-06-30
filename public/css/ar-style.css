@@ -61,6 +61,7 @@
     text-align: center;
     color: var(--black);
     font-size: 1.6rem;
+    margin-bottom: 75px;
 }
 .our-start .time-line{
     height: 200px;
@@ -217,7 +218,7 @@
     margin: 20px 0;
     align-items: flex-end;
     justify-content: center;
-    flex-direction: row-reverse;
+    flex-direction: row;
 }
 .our-services .card span sup{
     margin: 0 5px;
@@ -607,9 +608,51 @@ span.review-date{
     .hero .hero-content h1{
         font-size: 3.5rem;
     }
+    .our-start .start-date{
+        margin-bottom: 80px;
+    }
     .our-start .time-line .point .top, .our-start .time-line .point .bottom{
         width: 88%;
         font-size: 1rem;
+    }
+    .our-start .time-line{
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .our-start .time-line .point{
+        position: relative;
+        width: 35%;
+        transform: rotate(90deg);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .our-start .time-line .point span{
+        color: var(--white);
+        font-weight: 600;
+        font-size: 1.4rem;
+        background-color: var(--main-color);
+        border-radius: 50%;
+        padding: 10px;
+        transform: rotate(270deg);
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .our-start .time-line .point .top, .our-start .time-line .point .bottom{
+        font-size: 1.3rem;
+        transform: rotate(270deg);
+    }
+    .our-start .time-line .point .bottom{
+        top: 115px;
+    }
+    .our-start .time-line .point .top{
+        bottom: 115px;
     }
     .our-services .card, .our-services .middle-card{
         width: 90%;
