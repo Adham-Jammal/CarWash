@@ -12,10 +12,10 @@
                     {{__('index.53')}}
                 </p>
                 <div class="social-media">
-                    <a href="mailto:"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-                    <a href="#"><i class="fab fa-snapchat" aria-hidden="true"></i></a>
-                    <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-                    <a href="#"><i class="fab fa-tiktok" aria-hidden="true"></i></a>
+                    <a href="mailto:info@jimi.sa"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                    <a href="https://www.snapchat.com/add/jimi.991"><i class="fab fa-snapchat" aria-hidden="true"></i></a>
+                    <a href="https://instagram.com/abdullah.jewelry?r=nametag"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                    <a href="https://vt.tiktok.com/ZSR8Yr2Mf/"><i class="fab fa-tiktok" aria-hidden="true"></i></a>
                     <a href="https://api.whatsapp.com/send?phone=96650292144&text="><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
                 </div>
             </div>
